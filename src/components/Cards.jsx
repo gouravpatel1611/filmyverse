@@ -31,7 +31,7 @@ const Cards = () => {
                         <img className='h-72' src={e.link} alt={e.link} />
                         <h1> <span className='text-green-500 mr-2'>Name :</span>{e.name}</h1>
                         <h1 className='flex items-center '>
-                            <span className='text-green-500 mr-2'>Raring :</span>
+                            <span className='text-green-500 mr-2'>Rating :</span>
                         <ReactStars
                             size={20}
                             half={true}
