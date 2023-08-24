@@ -30,7 +30,9 @@ function AddMovie() {
               name: from.title,
               link: from.link,
               desc: from.desc,
-              year: from.year
+              year: from.year,
+              rated: from.rated,
+              rating: from.rating
             });
             setLoading(false);
             swal({
